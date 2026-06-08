@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────────────────
+# env_template.txt — environment variable template for SSU Energy Pipeline
+#
+# Copy this file and rename it to .env, then fill in your values.
+# Place it at:   /home/YOUR_USERNAME/pipeline/.env
+# Set permissions: chmod 600 .env
+# This file is read by master_pipeline.py at startup. NEVER commit .env to git.
+# ─────────────────────────────────────────────────────────────────────────
+
+# --- MySQL (Hostinger Databases) ---
+DB_USER=
+DB_PASSWORD=
+DB_HOST=
+DB_NAME=
+DB_PORT=3306
+
+# --- FTP (raw report drop) ---
+FTP_HOST=
+FTP_USER=
+FTP_PASSWORD=
+FTP_BASE_DIR=/siqReports
+
+# --- Paths (override only if your layout differs) ---
+PIPELINE_DIR=/home/YOUR_USERNAME/pipeline
+PUBLIC_DATA_DIR=/home/YOUR_USERNAME/domains/your-domain.com/public_html/data
+
+# --- Email alerts (optional) ---
+EMAIL_ENABLED=false
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SENDER_EMAIL=
+SENDER_PASSWORD=
+RECIPIENT_EMAIL=
+
+# --- PowerBI refresh (optional) ---
+POWERBI_ENABLED=false
+POWERBI_DATASET_ID=
+POWERBI_ACCESS_TOKEN=
