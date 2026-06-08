@@ -2,7 +2,7 @@
 
 Automated pipeline + interactive dashboard for tracking electricity, gas, and water usage across 30+ buildings at Sonoma State University.
 
-Built as part of an internship under Dr. Farid Farahmand. The whole pipeline is automated end-to-end. data comes in from the campus BMS every day, gets cleaned and stored, and the dashboard is updated with fresh data.
+Built as part of an internship under Dr. Farid Farahmand. The whole pipeline is automated end-to-end. Data comes in from the campus BMS every day at 6 AM UTC, gets cleaned and stored, and the dashboard is updated with fresh data.
 
 ---
 
